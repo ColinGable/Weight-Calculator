@@ -1,51 +1,44 @@
-Barbell Plate Calculator
+# Barbell Plate Calculator
 
-A Python desktop application that calculates the barbell plates needed to reach a target weight and displays the result using an interactive graphical barbell.
+A desktop application for calculating the exact combination of weight
+plates needed to load a barbell to a desired weight.
 
-The project includes a modern PyQt6 implementation as well as an earlier Tkinter implementation, showing the progression of the application as I explored different Python GUI frameworks.
+## Features
 
-Features
+- Calculates plate combinations automatically
+- Visual representation of loaded plates
+- Supports 45, 25, 10, 5, and 2.5 lb plates
+- Input validation for impossible weights
+- Multiple independent calculator windows
+- Custom window names
+- PyQt6 graphical interface
 
-Calculates the number of plate pairs required for a target barbell weight
+## Technologies
 
-Supports 45, 25, 10, 5, and 2.5 lb plates
+- Python
+- PyQt6
+- Object-Oriented Programming
+- Git / GitHub
 
-Validates user input and prevents impossible plate combinations
+## Screenshot
 
-Graphically displays plates on both sides of the barbell
 
-Uses different plate sizes and colors for easy identification
 
-Supports multiple calculator windows
+## Installation
 
-Allows users to give each calculator window a custom name
+git clone ...
+cd Weight-Calculator
+pip install -r requirements.txt
+python weight_plate_calculator_pyqt6.py
 
-Resizable graphical interface
+## How It Works
 
-Built With
+The application subtracts the weight of the bar and determines the
+minimum combination of matching plate pairs required to reach the
+requested total.
 
-Python
+## What I Learned
 
-PyQt6
-
-Tkinter
-
-How It Works
-
-The calculator assumes a standard 45 lb barbell.
-
-After entering a target weight, the application:
-
-Subtracts the weight of the bar.
-
-Divides the remaining weight equally between both sides.
-
-Determines the largest available plates that can be used.
-
-Continues through the available plate sizes until the required weight is reached.
-
-Displays both the calculated plate configuration and a graphical representation of the loaded barbell.
-
-For example, entering 225 lb produces:
-
-2 pairs of 45 lb plates
+This project gave me experience designing desktop interfaces,
+handling user input, separating application logic from the user
+interface, and maintaining multiple versions of an application.
