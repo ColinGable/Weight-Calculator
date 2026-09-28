@@ -22,6 +22,7 @@ plates needed to load a barbell to a desired weight.
 
 ## Screenshot
 
+<img width="1423" height="1013" alt="WC Pic" src="https://github.com/user-attachments/assets/934ff37d-8d6f-44bf-b806-5e5f56a55cbb" />
 
 
 ## Installation
