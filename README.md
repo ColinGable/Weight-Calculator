@@ -43,3 +43,4 @@ requested total.
 This project gave me experience designing desktop interfaces,
 handling user input, separating application logic from the user
 interface, and maintaining multiple versions of an application.
+An earlier Tkinter implementation is included  to show the project's progression before it was rebuilt in PyQt6.
